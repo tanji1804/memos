@@ -1,0 +1,3 @@
+BookControllerで単語帳の作成、名前の編集、単語帳の削除
+WordControllerで単語カードの追加、編集、削除
+bookテーブルとwordテーブルはbook_idで結合
