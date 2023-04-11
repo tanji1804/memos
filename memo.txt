@@ -4,3 +4,5 @@ bookテーブルとwordテーブルはbook_idで結合
 
 form action で入力を取得
 
+4/11
+bookをデータベースに保存できるようにした。
