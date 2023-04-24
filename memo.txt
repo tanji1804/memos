@@ -45,5 +45,5 @@ cardテーブルなど作った
 テーブルのbook_idなどを"id"にした
 
 4/21
-book.indexでcardをw保存できるようにした。
+book.indexでcardを保存できるようにした。
 次はcardを表示する。
