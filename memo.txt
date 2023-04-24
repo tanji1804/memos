@@ -47,3 +47,6 @@ cardテーブルなど作った
 4/21
 book.indexでcardを保存できるようにした。
 次はcardを表示する。
+
+4/22
+cardを表示したがredirectできない
