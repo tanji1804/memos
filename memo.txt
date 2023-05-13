@@ -69,4 +69,8 @@ redirectできた。
 自分の単語帳全てから、みんなの単語帳全てからの出題を作る。
 
 5/11
-all_booksで$book-cardsができない。all_cardsテーブルを作ったがエラー
+all_booksで$book->cardsができない。all_cardsテーブルを作ったがエラー
+
+5/13
+thisbookでもallbookでも$question_bookにarray(Card)を入れる。
+あとはblade
