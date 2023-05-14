@@ -74,3 +74,9 @@ all_booksで$book->cardsができない。all_cardsテーブルを作ったが�
 5/13
 thisbookでもallbookでも$question_bookにarray(Card)を入れる。
 あとはblade
+
+5/14
+questionできた。
+次、result。
+thisbookのhistoriesは表示できた。
+テーブルのbook_idをnullableできない。
