@@ -80,3 +80,6 @@ questionできた。
 次、result。
 thisbookのhistoriesは表示できた。
 テーブルのbook_idをnullableできない。
+
+5/15
+nullableできた。
