@@ -83,3 +83,6 @@ thisbookのhistoriesは表示できた。
 
 5/15
 nullableできた。
+
+5/17
+カードUI
