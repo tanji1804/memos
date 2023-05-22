@@ -86,3 +86,7 @@ nullableできた。
 
 5/17
 カードUI
+
+5/21
+popup
+admin作る。
