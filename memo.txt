@@ -90,3 +90,25 @@ nullableできた。
 5/21
 popup
 admin作る。
+adminできた。
+
+5/22
+メンタリング
+コマンドのログをつける。
+api やることリスト
+参考　https://qiita.com/u-dai/items/91df3b923dc82fed5b76
+・アカウント作成
+・認証
+・vision、+apiを有効化
+・.envの編集
+・laravel socialiteインストール $ composer require laravel/socialite
+・config/app.php　providers,aliasesの編集
+・Googleから取得した認証情報をconfig/services.phpに設定
+・LoginControllerの編集
+・ルーティングの編集
+・ビューの編集
+・LoginControllerの編集
+
+5/30
+googleでログインできた。
+次はadmin片付ける。
