@@ -118,3 +118,31 @@ adminの機能
 ・book削除
 ・card削除
 表示させた。
+
+6/1
+adminの機能ではまたdbの操作のみになるので保留。
+画像認識やる。
+
+
+・パッケージインストール　$ composer require google/cloud-vision
+・cliインストール　　curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-432.0.0-linux-x86_64.tar.gz
+$ tar zxvf google-cloud-cli-432.0.0-linux-x86_64.tar.
+./google-cloud-sdk/install.sh
+./google-cloud-sdk/bin/gcloud init
+gcloud projects add-iam-policy-binding warm-lane-387513 --member="user:ronkinnatsu2@gmail.com" --role=roles/owner
+composer require google/cloud
+
+・ルート作成
+・コントローラー編集
+
+6/10
+$ gcloud auth application-default login
+$ gcloud components update
+
+6/11
+ルートリポジトリにrequest.jsonがある。
+$ curl -X POST     -H "Authorization: Bearer "$(gcloud auth print-access-token)     -H "Content-Type: application/json; charset=utf-8"     https://vision.googleapis.com/v1/images:annotate -d @request.json
+を打つと、jsonが返ってくる。
+
+画像から文字認識、ページにテキスト表示
+あとはテキストの整形
